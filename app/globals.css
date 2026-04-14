@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-brand-text bg-white;
+}
+
+section {
+  scroll-margin-top: 88px;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 84px;
+  }
+}
